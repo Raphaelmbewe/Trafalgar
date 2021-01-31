@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background: #e6e6ff !important;
+     font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif !important;
+   
+}
+
+.my-nav-items{
+    margin: 0 auto !important;
+}
+
+.nav-background{
+    background: #ffffff !important;
+}
+
+.image{
+    position: relative;
+    left:1.50%;
+    bottom:-170px;
+    width: 131.58px;
+    height: 115px;
+}
+
+.Main-Text-Tag{
+    padding-top: 10% !important;
+}
+
+.thirdHeader{
+    margin-top: 10%;
+}
+
+.myButton {
+    background: #488ff6;
+    width: 200px;
+    height: 50px;
+    border-radius: 55px;
+    border: 0 !important;
+}
+
+
+
+.button-for-learn-more{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20% !important;
+    background: transparent;
+    color: #488ff6;
+    border: 1px solid #488ff6;
+    border-radius: 55px;
+}
+
+.button-for-learn-more2{
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    color: #488ff6 !important;
+    border: 1px solid #488ff6;
+    border-radius: 55px;
+}
+
+
+.button-for-view-all{
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    color: #488ff6 !important;
+    border: 1px solid #488ff6;
+    margin-bottom: 20% !important;
+    border-radius: 55px;
+}
+
+.read-more-button{
+     position: relative;
+     right:20%;
+     background: transparent;
+     color: #488ff6 !important;
+     border: none !important;
+}
+
+.Hero{
+    position: relative;
+    top: 15%;
+}
+
+h2{
+    color: black;
+}
+
+.our-services-header{
+    margin-top: 10% !important;
+}
+
+.latest-articles-header{
+     margin-top: 10% !important;
+}
+
+.line{
+    margin: 0 auto !important;
+    width: 8%;
+    height: 5px;
+    border-radius: 6px;
+    background: black;
+}
+
+.line2{
+    margin-bottom: 20px !important;
+    width: 18%;
+    height: 5px;
+    border-radius: 6px;
+    background: black;
+}
+
+
+.line-for-article-header{
+    margin: 0 auto !important;
+    width: 10%;
+    height: 5px;
+    border-radius: 6px;
+    background: black;
+}
+
+
+.line-for-feedback{
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+    width: 10%;
+    height: 5px;
+    border-radius: 6px;
+}
+
+
+.cardList{
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 36px;
+   padding: 20px;
+}
+
+
+
+.feedback-info{
+    margin: 0 auto !important;
+}
+
+.List-latest-cards{
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+@media screen and (min-width: 768px){
+    .List-latest-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 768px){
+    .cardList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.myCard{
+    background:#ffffff;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+
+.myCard h4{
+    margin-top: 0.5rem;
+}
+
+.myCard h4{
+    color:black;
+    letter-Spacing:0.05rem;
+}
+
+.myCard p{
+    margin-top: 0.5rem;
+}
+
+.myCard img{
+    position: relative;
+    right: 30%;    
+
+}
+
+
+.Image-dotted2 {
+  position : absolute;
+  right:0;
+}
+
+
+
+
+
+.card{
+    margin-top: 15% !important;
+    margin-bottom: 10% !important;
+    border-radius: 24px !important;
+}
+
+
+
+.rounded-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    object-fit: cover;
+}
+.person-name{
+    margin-top: 50px;
+    margin-bottom: 100px
+}
+
+.Latest-card-border-radius{
+    
+    border-radius: 18px !important;
+}
+
+.App-footer{
+    width: 100%;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+}
+
+.footer-image{
+    position: absolute;
+    left: 0;
+}
+
+.icon-name{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Main-components-in-footer{
+    margin: 0 auto !important;
+    width: 90%;
+}
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color:#488ff6 !important;
+}
+
+
+a:hover{
+    text-decoration:  inherit !important;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width:10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 50px;
+  }
+
+ 
