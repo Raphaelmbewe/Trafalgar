@@ -3,7 +3,7 @@ import './components.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav } from 'react-bootstrap';
 import Logo from '../images/logo.png'
-import { Link, Switch,Route, } from 'react-router-dom';
+import { Link, Switch,Route, Redirect } from 'react-router-dom';
 import { MainHeader } from './FirstHeader';
 import {CardList} from './MainCards';
 import { MainHeader3 } from './ThirdHeader';
@@ -31,6 +31,7 @@ export const Navigation = ()=>{
   <Route path="/find a doctor"> <CardList/></Route>
   <Route path="/apps"> <MainHeader3/></Route>
   <Route path="/testimonials"> <AppCarousel/></Route>
+  <Redirect from="*" to="/" />
   
   
 </Switch>
