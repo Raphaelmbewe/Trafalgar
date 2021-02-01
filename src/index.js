@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 import App from './App';
-
+import { BrowserRouter as Router } from 'react-router-dom';
 function MainApp(){
   return  (
   <>
-   <App />
+  <Router>
+     <App />
+  </Router>
+  
   </>
   );
 }
