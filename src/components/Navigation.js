@@ -26,11 +26,12 @@ export const Navigation = ()=>{
     </Nav>
   </Navbar.Collapse>
 </Navbar>
-<Switch>
+  <Switch>
+  <Route exact path="/"> <MainHeader/></Route> 
   <Route path="/find a doctor"> <CardList/></Route>
   <Route path="/apps"> <MainHeader3/></Route>
   <Route path="/testimonials"> <AppCarousel/></Route>
-  <Route exact path="/"> <MainHeader/></Route> 
+  
   
 </Switch>
 </div>

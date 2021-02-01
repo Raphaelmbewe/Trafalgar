@@ -1,7 +1,7 @@
 import React from "react";
 import {Navigation} from './components/Navigation';
 import {ElementImage } from './components/DotImage';
-import { MainHeader } from './components/FirstHeader';
+// import { MainHeader } from './components/FirstHeader';
 import {About } from './components/Information';
 import {CardList} from './components/MainCards';
 import {MainHeader2} from './components/SecondHeader';
@@ -23,7 +23,7 @@ function App() {
       <div className="App">
        <Navigation />
        <ElementImage />
-       < MainHeader />
+       {/* < MainHeader /> */}
        <About />
        <div data-aos='fade-up'><CardList /></div>
         <MainHeader2 />
