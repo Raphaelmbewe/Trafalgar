@@ -7,8 +7,7 @@ import { Link, Switch,Route, } from 'react-router-dom';
 import { MainHeader } from './FirstHeader';
 import {CardList} from './MainCards';
 import { MainHeader3 } from './ThirdHeader';
-import {AppCarousel} from './Carousel'
-import {AppFooter} from './Footer'
+import {AppCarousel} from './Carousel';
 export const Navigation = ()=>{
 
 
@@ -31,8 +30,8 @@ export const Navigation = ()=>{
   <Route path="/find a doctor"> <CardList/></Route>
   <Route path="/apps"> <MainHeader3/></Route>
   <Route path="/testimonials"> <AppCarousel/></Route>
-  <Route path="/"> <MainHeader/></Route>
-  <Route path="/about"> <AppFooter/></Route>
+  <Route exact path="/"> <MainHeader/></Route> 
+  
 </Switch>
 </div>
     )
