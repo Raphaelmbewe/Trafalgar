@@ -1,0 +1,9 @@
+.List-latest-cards{
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+

@@ -1,0 +1,118 @@
+.image{
+    position: relative;
+    left:1.50%;
+    bottom:-170px;
+    width: 131.58px;
+    height: 115px;
+}
+
+.Main-Text-Tag{
+    padding-top: 10% !important;
+}
+
+.thirdHeader{
+    margin-top: 10%;
+}
+
+.myButton {
+    background: #488ff6;
+    width: 200px;
+    height: 50px;
+    border-radius: 55px;
+    border: 0 !important;
+}
+
+
+
+.button-for-learn-more{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20% !important;
+    background: transparent;
+    color: #488ff6;
+    border: 1px solid #488ff6;
+    border-radius: 55px;
+}
+
+.button-for-learn-more2{
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    color: #488ff6 !important;
+    border: 1px solid #488ff6;
+    border-radius: 55px;
+}
+
+
+.button-for-view-all{
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    color: #488ff6 !important;
+    border: 1px solid #488ff6;
+    margin-bottom: 20% !important;
+    border-radius: 55px;
+}
+
+.read-more-button{
+     position: relative;
+     right:20%;
+     background: transparent;
+     color: #488ff6 !important;
+     border: none !important;
+}
+
+.Hero{
+    position: relative;
+    top: 15%;
+}
+
+h2{
+    color: black;
+}
+
+.our-services-header{
+    margin-top: 10% !important;
+}
+
+.latest-articles-header{
+     margin-top: 10% !important;
+}
+
+.line{
+    margin: 0 auto !important;
+    width: 8%;
+    height: 5px;
+    border-radius: 6px;
+    background: black;
+}
+
+.line2{
+    margin-bottom: 20px !important;
+    width: 18%;
+    height: 5px;
+    border-radius: 6px;
+    background: black;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 36px;
+   padding: 20px;
+}
+
+.Image-dotted2 {
+  position : absolute;
+  right:0;
+}
+
+
+
+.Main-components-in-footer{
+    margin: 0 auto !important;
+    width: 90%;
+}
+
+.bottomSpace{
+    margin-bottom: 10%;
+}

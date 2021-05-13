@@ -1,0 +1,58 @@
+.Main-Text-Tag{
+    padding-top: 10% !important;
+}
+h2{
+    color: black;
+}
+
+.line-for-article-header{
+    margin: 0 auto !important;
+    width: 10%;
+    height: 5px;
+    border-radius: 6px;
+    background: black;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 36px;
+   padding: 20px;
+}
+
+
+@media screen and (min-width: 768px){
+    .List-latest-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 768px){
+    .cardList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+.App-footer{
+    width: 100%;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+}
+
+.footer-image{
+    position: absolute;
+    left: 0;
+}
+
+.Main-components-in-footer{
+    margin: 0 auto !important;
+    width: 90%;
+}
+
+
+a:hover{
+    text-decoration:  inherit !important;
+}
+
+ul li {
+    list-style: none;
+}
